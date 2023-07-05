@@ -1,0 +1,7 @@
+{
+  "name": "ionic-download-excel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
