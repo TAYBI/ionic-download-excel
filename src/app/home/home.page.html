@@ -7,14 +7,16 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <a href="https://www.w3schools.com/images/myw3schoolsimage.jpg" download>
+    <img src="https://www.w3schools.com/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142">
+  </a>
+  <!-- <ul *ngFor="let item of data">
+    <li><strong>Name:</strong>{{item.name}}</li>
+    <li><strong>Age:</strong>{{item.age}}</li>
+    <li><strong>Description:</strong>{{item.description}}</li>
+  </ul> -->
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <button (click)="download()">
+    download
+  </button>
 </ion-content>
